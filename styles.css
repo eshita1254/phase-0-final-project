@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins;wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+    text-decoration: none;
+}
+/*customer scroll bar */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #87ceeb;
+
+}
+img {
+    float: right;
+   
+  }
+.container {
+    padding: 1px;
+  }
+
+
+  .navbar.sticky{
+    padding: 15px 0;
+    background: rgb(33, 27, 34);
+  }
+  
+::-webkit-scrollbar-thumb{
+    background: #600;
+}
+
+section{
+    padding: 100px 0;
+}
+.max.width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.services{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about .about-content .right img{
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    border-radius: 6px;
+  }
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 6px;
+  outline: none;
+  padding: 1px 15px;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+  border-color: #080808;
+}
+section .title::after{
+    position: absolute;
+    bottom: -8px;
+    right: 50%;
+    font-size: 20px;
+    color: #0f0e0e;
+    padding: 0 5px;
+    background: #fff;
+   
+  }
